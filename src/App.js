@@ -7,13 +7,13 @@ import { useRef } from "react";
 import Home from "./sections/home";
 import About from "./sections/About";
 import Shop from "./sections/Shop";
-import gsap from "gsap";
+
 import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
   const containerRef = useRef(null);
-  gsap.registerPlugin(ScrollTriggerProxy);
+
   return (
     <>
       <GlobalStyles />

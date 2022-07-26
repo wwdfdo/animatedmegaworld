@@ -53,13 +53,13 @@ const Right = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.grey};
 
-  width: 65%;
+  /* width: 65%; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
 
   h1 {
-    width: 5rem;
+    width: 10rem;
     margin: 0 2rem;
   }
 `;
@@ -132,6 +132,16 @@ const Shop = () => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
         <h1>img</h1>
         <h1>img</h1>
         <h1>img</h1>
